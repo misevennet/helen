@@ -1,0 +1,38 @@
+body{
+padding:0;
+margin:0;
+}
+
+h2{
+font: 200% Tahoma;
+color:teal; 
+}
+
+.reg{
+height:50px;	
+background:url(../img/gelsvtum08a.jpg);
+}
+
+.name{
+background:white-space;
+height:40px;
+}
+
+.login{
+	background:white-space;
+	height:40px;
+}
+.e-maile{
+	background:white-space;
+	height:40px;
+}
+
+button{
+width:71%;
+}
+
+.forms{
+background:url(../img/sersvtum66.jpg);
+width:30%;
+height:60%;
+}

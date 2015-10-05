@@ -1,0 +1,126 @@
+body{
+padding:0;
+margin:0;
+background:url(../img/vazan11a.jpg);
+}
+.heads{
+height:200px;
+background:url(../img/zelflofon01.jpg);
+}
+
+.heads h1{
+float:right;	
+}
+
+.regs{
+color:olive;	
+}
+.ent{
+margin-left:20px;	
+color:olive;	
+}
+
+.strip{
+padding-top:2px;
+padding-bottom:0px;
+height:20px;
+background:mintcream;	
+}
+
+.topmenu{
+display:-moz-box;
+display:-webkit-flex;
+display:flex;
+text-align:center;
+width:100%;
+margin:0 outo;
+flex-direction:row;
+}
+.topmenu a{
+-moz-box-flex:1;
+-webkit-flex:1;
+flex:1;
+display:block;
+font-size:14px;
+padding:10px;
+color:white;
+background:olive;
+text-decoration:none;
+border-right:1px solid white;
+}
+
+.topmenu a:hover{
+ background:black;
+ color:orange;
+}
+
+.leftmenu{
+background:#ccf;
+box-shadow:1px 1px 1px black;
+border-radius: 6px;
+border:solid 1px gray;
+}
+
+.footer{
+text-align:center;
+padding-top:60px;
+padding-bottom:0px;
+background:orange;
+}
+
+.sm_pic{
+    width:100%;
+}
+
+.model-window{
+    position:fixed;
+    top: 150px;
+    width: 500px;
+    left: 50%;
+    margin-left:-250px;
+    padding: 10px;
+    padding-top: 25px;
+    border: solid 1px green;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 10px;
+    background: white;
+}
+
+#jquery-overlay{ 
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: black;
+    opacity: 0.3;
+    
+}
+
+.model-close-btn{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    margin: 0;
+    padding: 0;
+    padding-right: 5px;
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+}
+
+.model-close-btn:before{
+    position: relative;
+    padding-right: 3px;
+    top: -2.5px;
+    content: "Close";
+    font-size: 13px;
+}
+
+.model-close-btn:hover{
+    text-decoration: none;
+}
+
+.model-close-btn:visited{
+    text-decoration: none;
+}

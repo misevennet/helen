@@ -1,0 +1,35 @@
+body{
+padding:0;
+margin:0;
+}
+
+h2{
+font: 200% monospace;
+color:forestgreen;
+}
+.name{
+background:white-space;
+height:40px;
+}
+
+.login{
+	background:white-space;
+	height:40px;
+}
+.ent{
+height:50px;
+background-image:url(../img/gelsvtum32a.jpg);
+}
+.input-small{
+height:40px;
+}
+
+button{
+width:71%;
+}
+
+.forms1{
+background:url(../img/gezetum65.jpg);
+width:30%;
+height:60%;
+}
